@@ -1,0 +1,15 @@
+{
+  "name": "MakiSwap v2",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "MakiSwap v2": {
+        "url": "https://api.bscgraph.org/subgraphs/name/cakeswap",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
